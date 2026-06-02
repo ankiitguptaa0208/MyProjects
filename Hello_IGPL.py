@@ -7,7 +7,7 @@ conn = pyodbc.connect(
     "DATABASE=OMS_DEMO;"
     "Trusted_Connection=yes;"
 )
-print ("Connection successful!")
+print ("Connection successful!!!")
 df = pd.read_sql("SELECT * FROM MstEmployee", conn)
 
 print(df)
